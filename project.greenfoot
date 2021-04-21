@@ -1,5 +1,5 @@
 #Greenfoot properties
-#Wed Apr 21 08:21:40 EDT 2021
+#Wed Apr 21 08:28:33 EDT 2021
 target1.type=ClassTarget
 class.MazeWorld.superclass=greenfoot.World
 project.charset=UTF-8
@@ -8,25 +8,25 @@ target2.type=ClassTarget
 version=3.0.0
 target2.editor.width=900
 target2.editor.height=700
-target2.y=10
 class.Wall.superclass=greenfoot.Actor
+target2.y=10
 target2.x=70
 target2.editor.y=20
 target2.editor.x=40
-class.Wall.image=edge2.png
+class.Wall.image=edge.png
 class.MazeWorld.image=corkboard.jpg
 world.lastInstantiated=MazeWorld
 target1.height=50
 target2.width=90
-mainWindow.y=16
 target1.width=80
+mainWindow.y=16
 mainWindow.x=136
 package.numDependencies=0
-target2.naviview.expanded=true
 target1.y=10
+target2.naviview.expanded=true
 target1.x=170
-package.numTargets=0
 mainWindow.width=1065
+package.numTargets=0
 target1.name=Wall
 target1.showInterface=false
 target2.showInterface=false

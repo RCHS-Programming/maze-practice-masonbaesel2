@@ -17,5 +17,69 @@ public class MazeWorld extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(800, 600, 1); 
+        for(int i = 0; i < 16; i++)
+        {
+            addObject( new Wall("edge.png"), 25 + 50*i,12);
+        }
+        for(int i = 0; i < 16; i++)
+        {
+            addObject( new Wall("edge2.png"), 12, 25 + 50*i);
+        }
+        for(int i = 0; i < 16; i++)
+        {
+            addObject( new Wall("edge2.png"), 12, 25 + 50*i);
+        }
+
+        //Right Wall
+        for(int i = 0; i < 16; i++)
+        {
+            addObject( new Wall("edge2.png"), 787, 25 + 50*i);
+        }
+        
+        //Partial wall in top left of maze
+        for(int i = 0; i < 7; i++)
+        {
+            addObject( new Wall("edge.png"), 25 + 50*i, 150);
+        }
+        //Partial wall in top right of maze
+        for(int i = 0; i < 7; i++)
+        {
+            addObject( new Wall("edge.png"), 525 + 50*i, 150);
+        }
+        
+        //Partial vertical wall middle starting (350,163)
+        for(int i = 0; i < 4; i++)
+        {
+            addObject( new Wall("edge2.png"), 350, 163 + 50*i);
+        }
+        //Partial vertical wall middle starting (350,463)
+        for(int i = 0; i < 4; i++)
+        {
+            addObject( new Wall("edge2.png"), 350, 463 + 50*i);
+        }
+        
+        //Partial vertical wall left side starting (185,280)
+        for(int i = 0; i < 7; i++)
+        {
+            addObject( new Wall("edge2.png"), 185, 280 + 50*i);
+        }
+        
+        //Partial vertical wall middle starting (350,163)
+        for(int i = 0; i < 4; i++)
+        {
+            addObject( new Wall("edge2.png"), 350, 163 + 50*i);
+        }
+        
+        //Partial horizontal wall starting (363,325)
+        for(int i = 0; i < 6; i++)
+        {
+            addObject( new Wall("edge.png"), 363 + 50*i, 325);
+        }
+        
+        //Partial horizontal wall starting (363,450)
+        for(int i = 0; i < 6; i++)
+        {
+            addObject( new Wall("edge.png"), 363 + 50*i, 450);
+        }
     }
 }
